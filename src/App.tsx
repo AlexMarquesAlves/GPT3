@@ -1,11 +1,29 @@
 import "./App.scss";
 
-import { Article, Brand, Cta, Feature, Navbar } from "./components";
+import {
+  Blog,
+  Features,
+  Footer,
+  Header,
+  Possibility,
+  WhatGPT3,
+} from "./containers";
+import { Brand, Cta, Navbar } from "./components";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello, World!</h1>
+      <div className="gradient__gb">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <Cta />
+      <Blog />
+      <Footer />
     </div>
   );
 };
