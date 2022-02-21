@@ -13,7 +13,7 @@ import { Brand, Cta, Navbar } from "./components";
 const App = () => {
   return (
     <div className="App">
-      <div className="gradient__gb">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
