@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles.scss";
 
-const Blog = () => {
+const Header = () => {
   return <div></div>;
 };
 
-export default Blog;
+export default Header;
